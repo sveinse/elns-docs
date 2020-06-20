@@ -215,6 +215,12 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#index--page-root" class="md-nav__link">ELNS</a>
         </li>
+        <li class="md-nav__item"><a href="#features" class="md-nav__link">Features</a>
+        </li>
+        <li class="md-nav__item"><a href="#technology" class="md-nav__link">Technology</a>
+        </li>
+        <li class="md-nav__item"><a href="#download" class="md-nav__link">Download</a>
+        </li>
         <li class="md-nav__item"><a href="#indices-and-tables" class="md-nav__link">Indices and tables</a>
         </li>
     
@@ -235,6 +241,46 @@
 <h1 id="index--page-root">ELNS<a class="headerlink" href="#index--page-root" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<p>ELNS is a tool for processing multi-channel audio, supporting interactive
+adjustments of audio parameters during processing. It processes live audio to
+and from a file or sound card in real-time.</p>
+<p>The tool comes with a set of audio processing functions, each written to test
+or demonstrate specific features. The DSP engine support a wide range of
+samplerates, including high-res rates, and it supports processing audio up to
+32-bit resolution.</p>
+<p>The tool provides a tkinter based used interface to set up the audio and
+file input/output and to adjust audio parameters interactively during processing.</p>
+<img alt="_images/elns_screenshot.png" src="_images/elns_screenshot.png"/>
+
+
+<h1 id="features">Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Selectable processing audio functions, each built for a specific purpose or
+demonstration.</p></li>
+<li><p>Reads and writes a wide range of file formats, including lossless format such
+as <em>flac</em></p></li>
+<li><p>Full-duplex sound card input and output</p></li>
+<li><p>Interactive real-time adjustment of parameters</p></li>
+<li><p>Supports multi-channel audio, up to 8 channels</p></li>
+<li><p>Supports high sample rates</p></li>
+<li><p>Process audio in high bit resolutions, up to 32-bits per sample</p></li>
+</ul>
+
+
+<h1 id="technology">Technology<a class="headerlink" href="#technology" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>ELNS is written in Python 3</p></li>
+<li><p>UI is implemented in Tk</p></li>
+<li><p><a class="reference external" href="http://scipy.org">SciPy and NumPy</a> for numerical processing</p></li>
+<li><p><a class="reference external" href="http://portaudio.com">Portaudio</a> and
+<a class="reference external" href="https://people.csail.mit.edu/hubert/pyaudio/">PyAudio</a> for audio interface</p></li>
+<li><p><a class="reference external" href="http://www.mega-nerd.com/libsndfile/">libsndfile</a> and
+<a class="reference external" href="https://forge-2.ircam.fr/roebel/pysndfile">pysndfile</a> for audio file IO</p></li>
+</ul>
+
+
+<h1 id="download">Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h1>
+<p>ELNS can be downloaded from <a class="reference external" href="https://github.com/sveinse/elns-release/releases">https://github.com/sveinse/elns-release/releases</a></p>
 
 
 <h1 id="indices-and-tables">Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
